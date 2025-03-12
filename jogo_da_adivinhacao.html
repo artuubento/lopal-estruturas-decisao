@@ -7,12 +7,11 @@
 </head>
 <body> 
     <script>
-        prompt ("Olá, pensei  em um número de 1 a 15, tente adivinhar qual eu pensei!")
-        let numeroAleatorio = Math.random()*15;
+        
+        let numeroAleatorio = Math.random()*1000;
         let numeroAleatorioInteiro = Math.round(numeroAleatorio)
         document.write("O número é: " + numeroAleatorioInteiro + ".");
-
-        let numero = prompt("Olá, pensei em um número de 1 a 15, tente adivinhar qual pensei ");
+        let numero = prompt("Olá, pensei em um número de 0 a 15, tente acertar!?");
         if(numero == numeroAleatorioInteiro){
             document.write("Você acertou parabéns!")
 

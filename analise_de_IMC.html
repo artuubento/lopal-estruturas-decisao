@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><script>
+    let peso = prompt("Digite seu peso");
+    let altura = prompt("Digite sua altura");
+    let IMC = (peso / (altura * altura)). toFixed(1);
+    if (IMC < 18.5) {
+        document.write("Seu IMC indica que você esta magrã;o")
+    }else if (IMC >35){
+    document.write("Seu IMC indica que você esta gordão");
+    }else {
+        document.write("Seu IMC indica que você esta suave");
+    }
+</script>
+    
+</body>
+</html>
